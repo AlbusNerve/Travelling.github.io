@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Indie Flower', cursive;
+}
+body {
+    background-image: url(карта.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header {
+    background: goldenrod;
+}
+.container {
+    max-width: 1140px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.logo-title {
+    text-align: center;
+}
+.cards-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.card {
+    padding: 20px;
+    margin-right: 20px;
+    width: 20%;
+    background: goldenrod;
+    box-shadow: 0 2px 1px 0;
+}
+.footer {
+    background: darkgoldenrod;
+    padding: 50px 0;
+    margin-top: 30%;
+}
+.manu-link {
+    text-decoration: none;
+    color: black;
+}
