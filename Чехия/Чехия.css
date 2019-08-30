@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Indie Flower', cursive;
+}
+body {
+    background-image: url(карта.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: rgba(218, 165, 32, 0.541);
+    margin-top: 15px;
+    padding: 20px;
+}
+.inf {
+    display: flex;
+    flex-direction: row;
+}
+.photo {
+    border-radius: 15%;
+    width: 25%;
+    height: 25%;
+}
+.group1 {
+    border-radius: 15%;
+    width: 10%;
+    height: 10%;
+}
+#text1 {
+    font-size: 300px;
+}
+#text2 {
+    font-size: 100px;
+}
+.group2 {
+    border-radius: 15%;
+    width: 25%;
+    height: 25%;
+}
+.text {
+    margin: 0 0 50px 100px;
+}
